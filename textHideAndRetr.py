@@ -93,7 +93,7 @@ def Main():
                       help='target picture path to retrieve text')
     (options, args) = parser.parse_args()
     
-    if (options.textHide != None):s
+    if (options.textHide != None):
         text = input("Enter a message to hide: ")
         print(textHide(options.textHide, text))
     elif (options.textRetr != None):
